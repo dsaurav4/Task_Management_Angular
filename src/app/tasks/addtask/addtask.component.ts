@@ -6,14 +6,10 @@ import {
   Output,
   signal,
 } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { type NewTaskData } from '../task/task.model';
 import { TasksService } from '../tasks.service';
 
 @Component({
   selector: 'app-addtask',
-  standalone: true,
-  imports: [FormsModule],
   templateUrl: './addtask.component.html',
   styleUrl: './addtask.component.css',
 })
